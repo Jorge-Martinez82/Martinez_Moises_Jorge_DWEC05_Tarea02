@@ -11,6 +11,7 @@ const Section = () => {
                         <div className="underline"></div>
                     </div>
                     {data.map(tour => (
+                        (tour.info) &&
                         // Por cada objeto en data, creamos un componente Article con los datos correspondientes
                         <Article
                             key={tour.id} // Es importante proporcionar una clave única para cada componente en un bucle
