@@ -1,5 +1,7 @@
 import React from 'react';
 
+// creamos el componente y utilizaremos la informacion pasada para rellenar las etiquetas
+// con la informacion de data.js
 const Article = (props) => {
     return (
         <div>
